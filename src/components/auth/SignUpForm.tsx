@@ -59,7 +59,6 @@ export const SignUpForm: React.FC = () => {
                 </div>
 
                 <button
-                  type="submit"
                   className="flex overflow-hidden justify-center items-center mt-12 w-full text-sm font-bold leading-snug bg-teal-500 rounded-md shadow-sm cursor-pointer text-neutral-50 max-md:mt-10"
                   onClick={() => router.push("/home")}
                 >
